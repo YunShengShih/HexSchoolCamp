@@ -77,6 +77,7 @@ img{
     position: fixed;
     right: 50px;
     bottom: 10%;
+    z-index: 299;
 }
 @media(max-width:376px){
     .to_top{
