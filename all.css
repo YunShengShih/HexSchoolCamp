@@ -201,12 +201,6 @@ img{
         max-height: 100%;
     }
 }
-@media(max-width:375px){
-    .banner img {
-        max-width: 304px;
-        height: 304px;
-    }
-}
 .banner h2{
     font-size: 18px;
     color: #56C4C5;
