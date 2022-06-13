@@ -110,9 +110,16 @@ img{
     display: flex;
     justify-content: space-between;
     align-items: center;
+    flex-wrap: wrap;
     padding: 24px 0px;
     padding-left: 2rem;
     padding-right: 2rem;
+}
+@media(max-width:376px){
+    .header{
+        padding-left: 1rem;
+        padding-right: 1rem;
+    }
 }
 .header h1 a{
     width: 218.06px;
